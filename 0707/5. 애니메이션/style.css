@@ -16,7 +16,7 @@
 
 /* 퍼즈를 선택해서 커서 올리면 멈춤 */
 div:hover{
-  animation-play-state:
+  animation-play-state: paused
 }
 
 

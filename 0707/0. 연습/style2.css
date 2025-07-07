@@ -1,34 +1,87 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.container:hover{
-  animation-play-state: running;
+.container{
+  display: flex;
 }
 
 .box1{
   width: 100px;
   height: 100px;
   background: red;
+  animation-name: ani;
+  animation-timing-function:linear;
+  animation-duration: 1s;
+  animation-play-state: paused;
+  animation-iteration-count: infinite;
 }
+.box1:hover{
+  animation-play-state: running;
+}
+
 .box2{
   width: 100px;
   height: 100px;
   background: blue;
+  animation-name: ani;
+  animation-timing-function:linear;
+  animation-duration: 1s;
+  animation-play-state: paused;
+  animation-iteration-count: infinite;
 }
+.box2:hover{
+  animation-play-state: running;
+}
+
 .box3{
   width: 100px;
   height: 100px;
-  background: green
+  background: green;
+  animation-name: ani;
+  animation-timing-function:linear;
+  animation-duration: 1s;
+  animation-play-state: paused;
+  animation-iteration-count: infinite;
 }
+.box3:hover{
+  animation-play-state: running;
+}
+
 .box4{
   width: 100px;
   height: 100px;
-  background: gray
+  background: gray;
+  animation-name: ani;
+  animation-timing-function:linear;
+  animation-duration: 1s;
+  animation-play-state: paused;
+  animation-iteration-count: infinite;
+}
+.box4:hover{
+  animation-play-state: running;
 }
 
-@keyframes{
-  
+@keyframes ani{
+  from{
+    width: 100px;
+    height: 100px;
+  }
+  to{
+    width: 200px;
+    height: 200px;
+  }
+}
+
+
+
+.list{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+a:visited{
+  background-color: red;
+}
+
+a::selection{
+  background: red;
+  color: white;
 }
