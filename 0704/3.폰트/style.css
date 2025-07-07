@@ -1,0 +1,41 @@
+p{
+  /* 글꼴 크기 */
+  font-size: 32px;
+  /* 글꼴 두께 */
+  /*  100 : lighter
+      400 : nomar(기본)
+      700 : bold
+      900 : bolder */
+  font-weight: 900;
+}
+
+body{
+  /* 줄간격 변경 */
+  line-height: 1cm;
+  /* 글꼴 */
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+
+  font-style: italic;
+
+  /* 소문자를 대문자로 바꿔줌 */
+  font-variant: small-caps;
+
+    /* font: font-style font-variant font-weight */
+   /* font-size/line-height font-family;   */
+}
+
+p{
+  font: italic bold 25px '굴림', Gulim;
+  font: bold italic small-caps 48px/1.2
+   '돋움', '굴림', Gulim;
+}
+
+h5{
+  /* 글꼴 색 */
+  color: rgb(178, 155, 90);
+  text-decoration: line-through;
+  text-transform: uppercase;
+  text-shadow: 1px 2px 1px gray,
+                2px 4px 3px green;
+  letter-spacing: 5px;
+}

@@ -1,0 +1,35 @@
+.float {
+  float: left;
+}
+.clear{
+  clear: both;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+
+}
+.box1 {
+  background-color: red;
+}
+.box2 {
+  background-color: orange;
+}
+.box3 {
+  background-color: yellow;
+  float: right;
+}
+.box4 {
+  background-color: green;
+  /* 박스를 가운데 놓고 싶으면 마진 오토 */
+  margin :auto;
+}
+.container {
+  /* 오버플로우 오토를 사용하여 초과된 영역을 추가해줌 */
+  /* 오버플로우 히든을 사용하여 초과된 영역 숨김 */
+  /* 오버플로우 스크롤을 사용하여 스크롤로 초과된 영역 보기 */
+  border: 1px solid red;
+  overflow: scroll;
+  height: 200px;
+}

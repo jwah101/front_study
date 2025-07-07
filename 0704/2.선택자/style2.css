@@ -1,0 +1,15 @@
+/* 하위선택자 #id 띄어쓰기 후 해당 태그*/
+#first p {
+  color: darkolivegreen;
+  font-size: 30px;
+}
+
+/* 뜨어쓰기 말고 >로 지정시 딱 바로 아래의 태그만 적용 */
+#second > p {
+  background-color:cyan;
+}
+
+/* p태그 안에 inner라는 클래스를 의미 */
+p.inner{
+  color: darkblue;
+}

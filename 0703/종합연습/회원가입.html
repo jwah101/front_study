@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h2>회원가입하기</h2>
+  <form method="post">
+    <input type="text" placeholder="아이디 입력" required minlength="2"> <br><br>
+    <input type="password" placeholder="비밀번호 입력" required> <br>
+    <input type="password" placeholder="다시 입력" required> <br>
+     <hr>
+    <input type="text" placeholder="이름" required> <br>
+    <input type="text" placeholder="생년월일 8자리" maxlength="8" required><br>
+    <input type="radio" name="남자or여자" value="남자"> 남자
+    <input type="radio" name="남자or여자" value="여자">여자<br>
+    <input type="radio" name="내국인or외국인" value="내국인"> 내국인
+    <input type="radio" name="내국인or외국인" value="외국인">외국인 <br>
+    <input type="text" placeholder="휴대전화번호 입력" required><br>
+    <input type="radio" name="통신사" value="KT">KT
+    <input type="radio" name="통신사" value="SKT">SKT
+    <input type="radio" name="통신사" value="LG">LG
+    <input type="radio" name="통신사" value="알뜰폰">알뜰폰 <br>
+    <input type="button" value="인증요청" onclick="alert('인증완료 되었습니다.')"> <br>
+    <input id="동의" type="checkbox">
+      <label for="동의">약관에 동의하십니까?</label> <br><br>
+    <input type="submit" value="회원가입">
+  </form>
+
+
+  <p>
+    회원가입 창 만들기 성공
+  </p>
+
+
+
+
+
+
+
+</body>
+</html>

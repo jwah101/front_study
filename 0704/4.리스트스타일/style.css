@@ -1,0 +1,23 @@
+ol {
+  list-style: upper-roman;
+ 
+}
+
+ul>li{
+  /* list-style-image: url(../../images/pepe.jpg );
+  list-style-type: none;
+  background-image: url(../../images/apeach.jpeg);
+  /* 밑에는 배경 반복 */
+  /* background-repeat: no-repeat;
+  background-size: 5px;
+  background-position: left center;
+  /* margin : 바깥여백 */
+  /* margin: 0; */
+  /* padding : 안쪽 여백 4개 지정 가능하고 12시부터 시계방향으로 */
+  /* padding: 0px 0px 0px 10px; */
+  
+}
+
+ul{
+  list-style-position:
+}

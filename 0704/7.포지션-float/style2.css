@@ -1,0 +1,35 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.menu{
+  width: 500px;
+  height: 100px;
+  background-color: antiquewhite;
+}
+.nav{
+  width: 100px;
+  height: 300px;
+  background-color: chartreuse;
+  float: left;
+}
+.content{
+  width: 400px;
+  height: 300px;
+  float: left;
+  background-color: coral;
+}
+.footer{
+  clear: both;
+  height: 100px;
+  width: 500px;
+  background-color: darkslategray;
+}
+.box{
+  border: 1px solid red;
+  width: 502px;
+  height: 502px;
+  margin: auto;
+}

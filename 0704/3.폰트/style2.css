@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap');
+@font-face {
+    font-family: 'TheTuesdayofYounah';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2506-1@1.0/TheTuesdayofYounah.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+  font-family: 'TheTuesdayofYounah';
+  font-size: 32px;
+}

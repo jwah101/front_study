@@ -1,0 +1,40 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+span, a {
+  border: 1px solid red;
+}
+
+span{
+  width: 100px;
+  height: 200px;
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+/* 좌우 마진은 가능하고 패딩도 가능함(인라인 요소들은 다 이러함) */
+a{
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 5px;  
+}
+
+/* 인라인 i를 디스플레이 블럭으로 설정하면 블럭 요소가 됨 */
+/* 블럭과 같이 모든 설정 가능해짐 */
+i{
+  display: block;
+}
+ul{
+  border: 1px solid blue;
+  text-align: center;
+}
+/* 인라인으로 변경해버림 */
+ul > li{
+  display: inline;
+  border: 1px solid red;
+  width: 100px;
+  text-align: center;
+}
+

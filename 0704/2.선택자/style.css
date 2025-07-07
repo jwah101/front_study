@@ -1,0 +1,21 @@
+/* 전체 선택자 */
+
+*{
+  color: steelblue;
+}
+/* 태그 선택자 */
+h1{
+  background-color: cornsilk;
+}
+h2{
+  font-style:italic
+}
+/* 아이디 선택자 #적어주기 */
+#title{
+  text-align: center;
+}
+/* 클래스 선택은 ./ ,후 원하는 태그 선택해서 지정해줄 수 있음*/
+.color, h3{
+  font-size: 50px;
+  color: darkblue;
+}

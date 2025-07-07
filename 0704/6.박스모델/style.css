@@ -1,0 +1,25 @@
+*{
+  /* 초기 설정이라고 생각하면 된다. */
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* 내가 어떤 박스 크기를 지정하기위해서  */
+/* margin , padding  둘다 0으로 넣어놓고, box-sizing border-box 지정 */
+/* 초기설정 안해놓으면 패딩, 마진등을 계산해서 박스의 높이 넓이를 계산해야하는 */
+/* 번거로움이 생기게 된다. */
+h1{
+  border: 5px solid red;
+  /* border-style: dotted dashed solid double; */
+  /* border-radius: 10%; */
+  border-top-left-radius: 10%;
+  border-top-color: blue;
+  padding: 5px;
+  margin: 10px;
+
+
+  height: 100px;
+  width: 150px;
+  /* inset 은 안쪽에 그림자 생성 */
+  box-shadow: inset -3px 5px 5px orange;
+}

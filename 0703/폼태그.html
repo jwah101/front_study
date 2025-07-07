@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- 포털에서 검색 / 로그인하거나 하는 형식을 만드는 태그 -->
+  <!-- action = 입력한 값의 서버 주소 -->
+  <!-- get : url 뒤에 쿼리스트링 형태로 값을 전송, 전송데이터 비밀 보장 안됨 -->
+  <!-- 전송할 수 있는 용량 제한되어있음 -->
+  <!-- post : 값 전송 자체가 요청 객체에 포함해서 보냄 / 보안이 유지되어 로그인, 회원가입에 사용  -->
+  <!-- 용량의 제한이 없음 -->
+
+
+  <form action="https://google.com/search" method="get">
+    <p>
+    <caption>검색</caption>
+    <input type="text" name="q">
+    <input type="submit" value="검색">
+    </p>
+    <!-- <caption>패스워드</caption>
+    <input type="password"> -->
+  </form>
+
+
+  <form>
+    <input type="text" size="10" maxlength="5" minlength="2" autofocus>
+    <input type="text" placeholder="아이디입력">
+    <input type="text" value="ㅎㄱㄷ" readonly>
+    <input type="text" value="고길동" disabled>
+    <input type="text" required> <br>
+    <input type="submit" value="입력">
+  </form>
+
+  <form >
+    텍스트 : <input type="text"> <br>
+    비밀번호 <input type="password"><br>
+    <input type="submit" value="로그인"> <br>
+  
+    <!-- 라디오 버튼 체크해서 name설정하여 같은 값으로 지정해주고 value를 입력하여 서버 전송 값 입력 -->
+    <!-- checked 사용시 기본적으로 원하는 곳에 체크를 미리 해놓을 수 있다  -->
+    라디오버튼 : <input type="radio" name="Yes or No" value="Yes" checked> 예 
+                <input type="radio" name="Yes or No" value="No">아니오
+    <!-- 여러개 선택할 수 있는 버튼 name설정 해줘야함-->
+    체크 박스 : <input type="checkbox" name="check" value="java"> JABA
+               <input type="checkbox" name="check" value="html" > HTML
+               <input type="checkbox" name="check" value="css"> CSS
+    <!-- 체크박스 는 라벨 태그와 같이 사용을 많이 함 라벨에 for 태그를 넣어 이용 -->
+     <!-- 인풋에 id태그를 넣어 for에 적은 내용을 넣으면 같은 걸로 묶어진다. -->
+    <input id="agree" type="checkbox">
+    <label for = "agree">약관동의</label>
+
+    <br><br>
+    <!-- 버튼은 기능이 없다. 추후 기능을 넣어줄 수 있음 -->
+    <input type="submit" value="전송">
+    <input type="reset" value="리셋">
+    <input type="button" value="버튼" onclick="alert('클릭하셨습니다.')">
+    <button>버튼2</button>
+
+    <!-- file은 필요한 파일을 전송할때 -->
+    <input type="file">
+    
+    <!-- 글작성용 -->
+    <textarea name="" id="" rows="10" cols="40" placeholder="글 입력하세요."></textarea>
+
+    <br>
+    <select name="color" id="">
+      <option value="red">빨강</option>
+      <option value="orange" selected>주황</option>
+      <option value="yellow">노랑</option>
+      <option value="green">초록</option>
+
+    </select>
+
+    <input type="hidden">
+
+
+
+
+
+
+
+
+  </form>
+
+
+
+
+
+
+
+
+</body>
+</html>

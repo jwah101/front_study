@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+
+
+
+   <!-- href -> 클릭하면 이동할 주소 넣어줌 / 이후 텍스트에 링크가 걸림  -->
+   <!-- a태그로 시작 -->
+  <a id="top"href="https://naver.com" target="_blank">네이버로 바로가기</a>
+  <a href="https://google.com" target="_self">구글로</a>이동하기
+  <a href="./이미지맵.html" target="_blank">이미지 맵 페이지로 이동하기</a>
+
+  <!-- iframe : 페이지 삽입하는 태그 -->
+  <h3>여기가 부모 페이지</h3>
+  <iframe src="./이미지.html" frameborder="1">
+      <a href="https://google.com">구글로 이동하기</a>
+      <a href="https://kakao.com" target="_parent">카카오로 이동하기</a>
+  </iframe>
+  
+  <h2>이미지에 링크걸기</h2>
+  <a href="https://naver.com" target="_blank">
+    <img src="../images/naver.png" alt="네이버">
+  </a>
+
+
+  <div style="height: 3000px;">aaa</div>
+
+
+  <h3>여기가 가장 아래</h3>
+  <a href="#top">위로가기</a>
+
+
+
+</body>
+</html>
