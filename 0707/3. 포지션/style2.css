@@ -1,0 +1,54 @@
+body{
+  height: 3000px;
+}
+
+.fix{
+  width: 100px;
+
+  /* 인터넷 화면 기준  고정*/
+  position: fixed;
+
+  right: 10px;
+  bottom: 10px;
+}
+
+.sti{
+  background-color: aquamarine;
+
+  /* 네비바는 보통 스티키로 고정을 시켜놓음 */
+  position: sticky;
+  top: 0;
+  /* 투명도 */
+  opacity: 0.5;
+  z-index: 99;
+}
+
+.container{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+}
+.container>div{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+.box1{
+  background-color: aqua;
+  top: 10px;
+  left: 10px;
+  /* zindex = 숫자로 겹치는 순서를 정할 수 있음 */
+  z-index: 5;
+}
+.box2{
+  background-color: coral;
+  top: 20px;
+  left: 20px;
+  z-index: 0;
+}
+.box3{
+  background-color: forestgreen;
+  top: 30px;
+  left: 30px;
+}

@@ -1,0 +1,56 @@
+div > p:first-child{
+  color: red;
+}
+
+div > p:last-child {
+  color: blue;
+}
+/* 번호 넣어도 되고, even(짝수) odd(홀수)도 가능 */
+/* of type 은 다른 타입의 태그가 있어서 그 순서를 제외하고 순서를 정함 */
+div > h3:nth-of-type(odd){
+  color: darkgreen;
+}
+
+div > h3:nth-child(odd){
+  color:blueviolet;
+}
+
+#outer > h4:nth-child(5){
+  color: red;
+}
+
+/* 기본상태 (링크를 클릭하지 않았을때) */
+a:link {
+  color:greenyellow
+}
+
+/* 방문했을 때 */
+a:visited {
+  color: red;
+}
+/* 커서를 올려두었을때 */
+a:hover{
+  color: yellow;
+}
+/* 클릭하는 순간 */
+a:active {
+  color: palegreen;
+}
+
+/* 포커스를 가졌을때 ex)탭키로 */
+a:focus {
+  color: blue;
+}
+
+input:focus{
+  background: blueviolet;
+}
+
+input::placeholder {
+  color: blue;
+}
+
+p::selection {
+  color: aquamarine;
+  background: gray;
+}

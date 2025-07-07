@@ -1,0 +1,23 @@
+table{
+  width: 300px;
+  border: 1px solid red;
+  /* 선 간격 없애기 */
+  /* border-collapse: collapse; */
+
+  /* 표 너비 크기를 일정하게 만들어줌 */
+  table-layout: fixed;
+  /* 캡션 위치 조정 */
+  caption-side: bottom;
+  /* 셀의 빈간 없애기 */
+  empty-cells: hide;
+}
+
+td{
+  border: 1px solid red;
+}
+
+img{
+  width: 50%;
+  /* 이미지 간격 조절 */
+  vertical-align: middle;
+}
