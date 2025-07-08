@@ -1,0 +1,78 @@
+.parent {
+  border: 1px solid red;
+  height: 500px;
+  display: flex;
+
+  /* 자식들 요소를 설정하는 함수 */
+  /* space - around 일정하게 간격조절 해주는 함수 */
+  /* space - between 좌우 여백 없이 간격 조절 */
+  justify-content: space-between;
+
+  /* 자식요소들 세로 정렬 가능 */
+  align-items: center;
+}
+
+/* flex 박스에 자식으로 있는 요소는 높이를 설정하지 않으면 부모크기에 맞춰짐 */
+.child {
+  background: paleturquoise;
+  width: 50px;
+  height: 100px;
+}
+
+.parent2 {
+  border: 1px solid red;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child2 {
+  width: 100px;
+  height: 100px;
+  background: skyblue;
+}
+
+.parent3 {
+  border: 1px solid red;
+  height: 500px;
+
+  /* 플렉스로 설정하면 자식 요소들이 가로 배치로 변경 됨 flex-direction row가 기본설정 떄문 */
+  display: flex;
+
+  /* row reverse 오른쪽 정령 후 역 순 정렬 */
+  /* column 가로 배치 정렬 reverse 도 가로 아래 배치 후 역순 정렬 */
+  flex-direction: column;
+
+
+}
+
+.child3 {
+  width: 100px;
+  height: 100px;
+  background: palevioletred;
+}
+
+.parent4 {
+  border: 1px solid red;
+  display: flex;
+  height: 600px;
+  /* 부모크기에 맞춰서 넣을건지 줄바꿈 할 건지 선택 (nowrap)이 기본설정 : 줄바꿈 안함*/
+  /* 리버스도 있음 */
+  /* flex-wrap: wrap; */
+
+  /* 배치 방향과 줄바꿈은 하나의 속성으로 처리가 가능함 */
+  flex-flow: row wrap;
+
+  /* wrap일 경우 자식요소 간격 설정 가능 */
+  align-content: center;
+
+}
+
+.parent4 > div{
+  width: 100px;
+  height: 100px;
+  background: salmon;
+  margin: 5px;
+}

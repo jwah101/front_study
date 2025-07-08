@@ -1,0 +1,57 @@
+/* 해당 태그의 시작전에 실행하는 함수 */
+h1::before {
+  content: "★";
+}
+/* 해당태그 실행 후 */
+h1::after{
+  content: "New";
+  background: red;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  position: absolute;
+}
+
+.img{
+  width: 600px;
+  height: 500px;
+  background: url(../../images/gifpepe.gif) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.img::before{
+  content: "시무룩 페페";
+  font-size: 50px;
+  color: aqua;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0; 
+  text-align: center;
+  line-height: 500px;
+}
+
+
+.content{
+  background: papayawhip;
+  width: calc(100% - 200px);
+}
+
+.aside{
+  background: yellow;
+  width: 200px;
+}
+
+.container > div{
+  float: left;
+  height: 50px;
+}
+
+/* 버티컬 얼라인 -> 인라인 , 인라인블록들을 세로 가운데 정렬 하기 위해서 */
+.wrapper > b {
+  font-size: 40px;
+  vertical-align: middle;
+}

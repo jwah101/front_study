@@ -1,0 +1,16 @@
+/* 동위 선택자 */
+/* 기준 태그의 다음 부터 모든 것 계산함 */
+h1 ~ p{
+  background: red;
+}
+
+
+/* 기준 태그 이후부터  가장 가까운 것 1개만 계산 */
+h1 + p{
+  color: red;
+}
+
+/* label과 같이 사용함 그대신 label을 형제로 바꿔줘야함*/
+input[type="checkbox"]:checked +label{
+  background: red
+}

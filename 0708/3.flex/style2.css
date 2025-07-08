@@ -1,0 +1,79 @@
+.parent{
+  border: 1px solid red;
+  display: flex;
+}
+
+.parent > div {
+  width: 100px;
+  height: 100px;
+  background: forestgreen;
+  margin: 5px;
+}
+
+/* flex - grow = 부모의 크기에 따라 비율을 정해주는 것 */
+.child1 {
+  flex-grow: 1;
+
+  /* 감소비율 */
+  flex-shrink: 3;
+}
+.child2 {
+  flex-grow: 2;
+  flex-shrink: 2;
+}
+.child3 {
+  flex-grow: 3;
+  flex-shrink: 1;
+}
+
+.parent2{
+  border: 1px solid red;
+  height: 500px;
+  display: flex;
+}
+
+.parent2 > div {
+  width: 100px;
+  height: 100px;
+  background: orangered;
+  margin: 5px;
+}
+
+.child4 {
+  flex: 1;
+  /* order: 1; */
+  /* 자식 요소에 개별적으로 변경 가능 */
+  align-self: center;
+}
+.child5 {
+  flex: 1;
+  /* order: 3; */
+}
+.child6 {
+  flex: 1;
+
+  /* 순서 변경  0부터*/
+  /* order: 2; */
+}
+
+.parent3{
+  border: 1px solid red;
+  display: flex;
+}
+
+.parent3 > div {
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  margin: auto;
+}
+
+.child7 {
+  /* margin-right: auto; */
+}
+.child8 {
+  /* margin: auto; */
+}
+.child9 {
+
+}

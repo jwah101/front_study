@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 1200px;
+  margin: auto;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+header{
+    width: 1200px;
+    background-color: white;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.left-menu{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.highlight{
+  color:  #ff8a3d;
+}
+
+.left-menu img{
+  width: 120px;
+  height: 30px;
+}
+
+.right-menu{
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-menu .search {
+  width: 250px;
+  height: 40px;
+  border-radius: 2%;
+  font-size: 16px;
+  border: 0px;
+  background: gainsboro;
+}
+.right-menu .chet {
+  width: 80px;
+  height: 40px;
+  background: white;
+  border-radius: 8%;
+  font-size: 16px;
+  font-weight: 800;
+  margin: 5px;
+}
+
+.section-top{
+  height: 685px;
+  width: 1200px;
+  margin-top: 60px;
+  background-color: #FBF7F2;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.section-top .left {
+  margin-left: 100px;
+  align-content: center;
+  vertical-align: middle;
+}
+
+.section-top .right img{
+  width: 800px;
+  height: 685px;
+}
+
+.section-bottom {
+  height: 685px;
+  width: 1200px;
+  margin-top: 60px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-content: space-between;
+}
+.section-bottom .left img{
+  width: 530px;
+  height: 685px;
+}
+
+.section-bottom .right {
+  align-content: center;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+
+.btn{
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px;
+  background-color: #F1F3F5;
+  border-radius: 10%;
+}
+
+.footer{
+  justify-content: space-between;
+  display: flex;
+  width: 1200px;
+  height: 200px;
+  border-top : 1px solid gray;
+  margin: 20px;
+}
+ul{
+  list-style: none;
+}
+.footer-left{
+  width: 400px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  line-height: 50px;
+}
+
+.footer-right{
+  font-weight: bolder;
+  font-size: 14px;
+  width: 300px;
+  margin-top: 10px;
+}
