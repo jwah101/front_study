@@ -1,0 +1,80 @@
+
+/* @media : 미디어 쿼리 */
+/* screen : 미디어 타입 설정 */
+/* and는 조건들을 연결해주는 논리연산자 */
+/* max-width 500px : 조건 코드는 최대 너비가 500px일때 적용한다~ */
+/* @media screen and(max-width: 500px) { */
+/* 이 안쪽에는 해당 조건이 만족하면 실행할 코드 */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .container{
+  background: pink;
+  height: 2000px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.container > div{
+  background: blue;
+  width: 20%;
+  height: 200px;
+  margin: 5px;
+} */
+
+/* @media (max-width: 425px) {
+  .container{
+    flex-direction: column;
+  }
+  
+  .container > div {
+    width: 100%;
+    height: 150px;
+  }
+} */
+
+/* @media (min-width: 426px) and (max-width: 768px){
+  .container{
+    align-content: flex-start;
+
+  }
+
+  .container > div {
+    width: 90%;
+    height: 150px;
+  }
+} */
+
+.header1 {
+  height: 100px;
+  background: yellowgreen;
+}
+
+.header2{
+  height: 100px;
+  background: aqua
+}
+
+@media (max-width:768px) {
+  .header1 {
+    display: none;
+  }
+
+  .header2{
+    display: block;
+  }
+}
+
+@media (min-width:769px) {
+  .header1 {
+    display: block;
+  }
+
+  .header2 {
+    display: none;
+  }
+}
