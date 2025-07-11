@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 20px;
+}
+
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tab-button {
+  padding: 5px;
+  color: lightgray;
+  /* 내용에 커서 올리면 커서 모양 변경 */
+  cursor: pointer;
+}
+
+.selected {
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+  border-bottom: 1px solid black; 
+}
+
+.tab-content {
+  padding: 15px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
