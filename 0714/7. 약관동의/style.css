@@ -1,0 +1,17 @@
+.box {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  overflow-y: scroll;
+  margin: auto;
+}
+
+.container {
+  text-align: center;
+}
+
+
+/* chk가 디스에이블일때 라벨과 같이 글씨 변경 */
+#chk:disabled + label{
+  color: lightgray;
+}
